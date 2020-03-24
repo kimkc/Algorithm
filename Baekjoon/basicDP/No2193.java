@@ -3,7 +3,7 @@ package Baekjoon.DP;
 import java.util.Scanner;
 
 public class No2193 {
-	/*
+	
 	public static void main(String[] args){
 		//BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		//BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -19,10 +19,27 @@ public class No2193 {
 			dp[i][0] = dp[i-1][0]+dp[i-1][1];
 			dp[i][1] = dp[i-1][0];
 		}
-		System.out.println(dp[n][0]+dp[n][1]);
+		long d[][] = new long[n+1][2];
+	    d[1][0] = 0;
+	    d[1][1] = 1;
+
+	    for(int i = 2; i <= n; i++){
+	      d[i][0] = d[i-1][0] + d[i-1][1];
+	      d[i][1] = d[i-1][0];
+	    }
+	    
+	    for(int i = 0; i <= n; i++) {
+	    	if(dp[i][0]+dp[i][1] != d[i][0]+d[i][1]) {
+	    		System.out.println(i);
+	    		break;
+	    	}
+	    	if(i == n) {
+	    		System.out.println("¾ø´Ù");
+	    	}
+	    }
 	}
-	*/
 	
+	/*
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
@@ -35,4 +52,5 @@ public class No2193 {
 		System.out.println(d[n]);
 		sc.close();
 	}
+	*/
 }
