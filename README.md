@@ -1,9 +1,8 @@
 # Algorithm
+2020.05.11<br/>
 site name | [SW](https://github.com/kimkc/Algorithm/tree/master/sw) | [Baekjoon](https://github.com/kimkc/Algorithm/tree/master/Baekjoon) | [programmers](https://github.com/kimkc/Algorithm/tree/master/programmers) | 총합
 --- | --- | --- | --- | ---
 갯수 | 70 | 91 | 38 | 198
-
-<br/> 2020.05.11  총 합계: 200개
 
 5월 목표: 92개(평일5, 주말3) SW(D3, D4) 1 or 2/programmers(Lv2, Lv3) 1 or 2/ 백준 2
 
