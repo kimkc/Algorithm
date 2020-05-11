@@ -1,7 +1,7 @@
 # Algorithm
-website | [SW](https://swexpertacademy.com/main/capacityTest/main.do) | [Baekjoon Online Judge](https://www.acmicpc.net/) | [programmers](https://programmers.co.kr/learn/challenges)
---- | --- | --- | ---
-갯수 | 70 | 91 | 38
+site name | [SW](https://github.com/kimkc/Algorithm/tree/master/sw) | [Baekjoon](https://github.com/kimkc/Algorithm/tree/master/Baekjoon) | [programmers](https://github.com/kimkc/Algorithm/tree/master/programmers)
+--- | --- | --- | --- | 총합
+갯수 | 70 | 91 | 38 | 198
 
 <br/> 2020.05.11  총 합계: 200개
 
