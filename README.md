@@ -1,6 +1,6 @@
 # Algorithm
-site name | [SW](https://github.com/kimkc/Algorithm/tree/master/sw) | [Baekjoon](https://github.com/kimkc/Algorithm/tree/master/Baekjoon) | [programmers](https://github.com/kimkc/Algorithm/tree/master/programmers)
---- | --- | --- | --- | 총합
+site name | [SW](https://github.com/kimkc/Algorithm/tree/master/sw) | [Baekjoon](https://github.com/kimkc/Algorithm/tree/master/Baekjoon) | [programmers](https://github.com/kimkc/Algorithm/tree/master/programmers) | 총합
+--- | --- | --- | --- | ---
 갯수 | 70 | 91 | 38 | 198
 
 <br/> 2020.05.11  총 합계: 200개
