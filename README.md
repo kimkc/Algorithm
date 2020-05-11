@@ -1,7 +1,7 @@
 # Algorithm
-[SW](https://swexpertacademy.com/main/capacityTest/main.do) | [Baekjoon Online Judge](https://www.acmicpc.net/) | [programmers](https://programmers.co.kr/learn/challenges)
---- | --- | ---
-70 | 91 | 38
+website | [SW](https://swexpertacademy.com/main/capacityTest/main.do) | [Baekjoon Online Judge](https://www.acmicpc.net/) | [programmers](https://programmers.co.kr/learn/challenges)
+--- | --- | --- | ---
+갯수 | 70 | 91 | 38
 
 <br/> 2020.05.11  총 합계: 200개
 
