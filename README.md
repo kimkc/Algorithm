@@ -4,7 +4,7 @@
 - [Baekjoon Online Judge](https://www.acmicpc.net/)  91
 - [programmers](https://programmers.co.kr/learn/challenges)  LV1: 28 LV2: 8  LV3: 2   합계: 38
 ~표로 바꾸기~
-총 합계: 200개 2020.05.11
+/br 총 합계: 200개 2020.05.11
 
 5월 목표: 92개(평일5, 주말3) SW(D3, D4) 1 or 2/programmers(Lv2, Lv3) 1 or 2/ 백준 2
 
