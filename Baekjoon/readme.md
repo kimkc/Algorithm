@@ -1,6 +1,6 @@
 [Baekjoon](https://www.acmicpc.net/problem/tags)
 =============
-- simulation & implement 1
+- simulation & implement    1
 - bfs
 - dfs
 - DP
