@@ -4,7 +4,7 @@ site name | [SW](https://github.com/kimkc/Algorithm/tree/master/sw) | [Baekjoon]
 --- | --- | --- | --- | ---
 갯수 | 70 | 91 | 38 | 198
 <br/>
-5월 목표: 92개(평일5, 주말3) SW(D3, D4) 1 or 2/programmers(Lv2, Lv3) 1 or 2/ 백준 2<br/>
+5월 목표: 92개(평일5, 주말3) SW(D3, D4) 1 or 2/programmers(Lv2, Lv3) 1 or 2/ 백준 2<br/><br/>
 
 SW, programmers 
   - 문제 분석, 문제 해석, 접근법, 시간복잡도, 공간복잡도, 다른 코드와의 차이점
