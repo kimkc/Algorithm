@@ -1,8 +1,5 @@
 [Baekjoon](https://www.acmicpc.net/problem/tags)
 =============
-- simulation & implement    1
-- bfs
-- dfs
-- DP
-- graph & tree
-- greedy
+type | simulation & implement | bfs&dfs | DP | graph & tree | greedy | 합계
+--- | --- | --- | --- | --- | --- | ---
+갯수 | 1 | 10 | 2 | 0 | 
