@@ -1,19 +1,19 @@
 [Baekjoon](https://www.acmicpc.net/problem/tags)
 =============
-##simulation & implement 1
+## simulation & implement 1
   - 2455.지능형 기차
 
-##bfs
+## bfs
   - 
 
-##dfs
+## dfs
   - 
 
-##DP
+## DP
   - 
 
-##graph & tree
+## graph & tree
   - 
 
-##greedy
+## greedy
   - 
