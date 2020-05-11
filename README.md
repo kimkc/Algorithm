@@ -1,6 +1,6 @@
 # Algorithm
 
-- [SW](https://swexpertacademy.com/main/capacityTest/main.do)   D2: 6 D3: 64 D4:\    \  D5:\    \  합계: 71
+- [SW](https://swexpertacademy.com/main/capacityTest/main.do)   D2: 6 D3: 64 D4: 0   D5: 0   합계: 71
 - [Baekjoon Online Judge](https://www.acmicpc.net/)  91
 - [programmers](https://programmers.co.kr/learn/challenges)  LV1: 28 LV2: 8  LV3: 2   합계: 38
 ~표로 바꾸기~
