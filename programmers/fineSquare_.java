@@ -1,3 +1,4 @@
+https://programmers.co.kr/learn/courses/30/lessons/62048
 class Solution {
     public long gcd(long w, long h){
         long r = 0;
