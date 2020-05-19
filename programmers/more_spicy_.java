@@ -1,3 +1,4 @@
+https://programmers.co.kr/learn/courses/30/lessons/42626
 import java.util.*;
 class Solution {
     //문제 제대로 분석 못하고, 내 마음대로 설계를 함** 배열의 갯수 줄어듬, 스코빌 연산 규칙, k이상인 것도 연산에 포함 들을 빼먹고 생각
