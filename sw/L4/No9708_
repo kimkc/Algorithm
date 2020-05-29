@@ -1,0 +1,139 @@
+package L4;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.StringTokenizer;
+
+public class No9708_ {
+	public static void main(String[] args) throws IOException{
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int TC = Integer.parseInt(br.readLine());
+		
+		for(int tc = 1; tc <= TC; tc++) {
+			
+			int n = Integer.parseInt(br.readLine());
+			int[] sequence = new int[n];
+			
+			int count = 0;
+			
+			StringTokenizer st = new StringTokenizer(br.readLine());
+			for(int i = 0 ; i < n; i++) {
+				sequence[i] = Integer.parseInt(st.nextToken());
+			}
+			
+			//dfs
+			Queue<Integer> q = new LinkedList<>();
+			//HashSet<Integer> set = new HashSet<>();
+			
+			for(int i = 0; i < n; i++) {
+				q.add(sequence[i]);	
+			}
+			
+			while(!q.isEmpty()) { 
+				int size = q.size();
+
+				while(size -- > 0) {
+					
+					int num = q.poll();
+					for(int i = 0 ; i < n; i++) {
+						if(sequence[i] % num == 0 && sequence[i] != num)
+							q.add(sequence[i]);
+					}
+				}
+				count++;
+			}
+			System.out.println("#"+tc+" "+count);
+			//
+		}
+	}
+}
+/*
+착각
+정렬 후 n부터 1까지 순서대로 약수들을 count, ex)n이면 n-1~1까지 보면서 약수면 count++, 다음 n-1부터 
+O(n^2) 10000*10000-> 약수는 공통되게 된다.
+->1,2,3,7,14,21,28,36,49,63 약수라고되는 것이아니라 ai-1가 ai의 약수인 조건, 전부가 아니다
+ 
+10:39~12:21 dfs 상태트리를 그리면서 알게됨 5개 맞지만 시간초과 => 중복이 매우 심함-> DP사용해야함
+*/
+
+/*
+정답코드
+public class Solution { // 제출일 2020-05
+     
+    static int n;
+    static int[] arr;
+    static int[] memo = new int[1000001];
+    static StringTokenizer st = null;
+ 
+    public static void main(String[] args) throws Exception {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));     
+        StringBuilder sb = new StringBuilder();
+ 
+        int TC = Integer.parseInt(br.readLine());
+        for (int tc = 1; tc <= TC; tc++) {
+ 
+            n = Integer.parseInt(br.readLine());
+            arr = new int[n];
+            st = new StringTokenizer(br.readLine());
+ 
+            parse();            
+ 
+            int ans = 1;
+            if (n != 1) {
+                Arrays.sort(arr);
+                fillOne();              
+                if (arr[0] == 1) {   //               
+                    ans = getMax(1);
+                    ans++;//
+                } else {  //
+                    ans = getMax(0); //
+                }
+            }
+ 
+            sb.append("#").append(tc).append(" ").append(ans).append("\n");
+//          System.out.println(String.format("#%d %d", tc, ans));
+        }
+        bw.write(sb.toString());
+        bw.flush();
+ 
+    }
+ 
+    private static void fillOne() {
+        for (int i = 0; i < n; i++) {
+            memo[arr[i]] = 1;
+        }       
+    }
+ 
+    private static void parse() {
+        for (int i = 0; i < n; i++) {
+            arr[i] = Integer.parseInt(st.nextToken());
+        }
+         
+    }
+ 
+    private static int getMax(int idx) {
+        int max = 0;
+        for (int i = idx; i < n; i++) {
+            for (int j = arr[i] << 1; j <= arr[n - 1]; j += arr[i]) {
+                if (memo[j] != 0 && memo[j] <= memo[arr[i]]) { // 2번재 조건식 
+                    memo[j] = memo[arr[i]] + 1;
+                }
+            }
+        }
+ 
+        for (int i = 0; i < n; i++) {
+            if (max < memo[arr[i]]) {
+                max = memo[arr[i]];
+            }
+        }       
+        return max;
+    }
+}
+*/
