@@ -11,7 +11,7 @@ site name | [SW](https://github.com/kimkc/Algorithm/tree/master/sw) | [Baekjoon]
 2020.09.20
 site name | SW | Baekjoon | programmers | 총합
 --- | --- | --- | --- | ---
-갯수 | 112 | 114 | 100 | 3
+갯수 | 112 | 114 | 100 | 326
 
 
 기록 일지 
